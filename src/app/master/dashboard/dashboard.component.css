@@ -12,4 +12,8 @@
     textarea{height: 100px;}
      .btn-primary{background-color:darkslateblue;
     margin-top: 20px;}
-    .newline{margin-top:4px;}
+    .newline{margin-top:4px;}  
+    .paddlbl{  padding: 0px;}
+    .fileupload{
+    margin-top: 24px;
+    }
