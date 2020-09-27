@@ -8,6 +8,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './master/home/home.component';
 import { DashboardComponent } from './master/dashboard/dashboard.component';
+import { HttpClientModule } from '@angular/common/http';
+import { BusinessComponent } from './master/business/business.component';
 
 
 @NgModule({
@@ -18,11 +20,12 @@ import { DashboardComponent } from './master/dashboard/dashboard.component';
     FooterComponent,
     HomeComponent,
     DashboardComponent,
+    BusinessComponent
   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
