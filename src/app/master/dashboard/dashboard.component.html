@@ -19,7 +19,7 @@
                    </div>
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-2 paddlbl">
-                  <input type="file" id="" class="fileupload" #file1 type="file" accept='image/*' (change)="preview(file1.files)"/>
+                  <input type="file" id="" class="fileupload" multiple type="file"  (change)="UploadFilechangeevent($event,0)" />
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-2">
                     <button type="button" class="btn btn-primary">Sumbit</button>
