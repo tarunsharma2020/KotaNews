@@ -18,6 +18,7 @@ export class BusinessComponent implements OnInit {
 imageUrl:any;
 imageUrl1:any;
 imageUrl2:any;
+
   showImages(){
     this._dashboard.showImages().subscribe((data)=>{
 //this.imageUrl=data;
